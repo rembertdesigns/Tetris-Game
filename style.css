@@ -68,5 +68,35 @@
   #score {
     padding: 5px;
     color: white;
-    
+  }
+  #start {
+    width: 210px;
+  /*   border: solid 5px white; */
+    cursor: pointer;
+    background: white;
+    border: none;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #start:hover,
+  #start:focus {
+    background: #eee;
+    border-color: #eee;
+  }
+  
+  footer {
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+    color: #fff;
   }
