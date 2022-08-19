@@ -22,3 +22,51 @@
     margin-right: -1rem;
     color: white;
   }
+  #screen {
+    background: #eee;
+    border: solid 5px white;
+    width: 210px;
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #screen div {
+    width: 20px;
+    height: 20px;
+    border: solid 1px white;
+  }
+  
+  #screen div:nth-of-type(n+201) {
+    border: transparent;
+  }
+  
+  #preview-screen {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+    border: solid 5px white;
+    background: #eee;
+  }
+  
+  #preview-screen div {
+    width: 20px;
+    height: 20px;
+    border: solid 1px white;
+  }
+  
+  #preview-screen div:nth-of-type(n+17) {
+    border: transparent;
+  }
+  
+  .tetromino {
+  /*   background: red; */
+  }
+  
+  #score {
+    padding: 5px;
+    color: white;
+    
+  }
