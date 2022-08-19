@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    
+  }
+  
+  body {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  /*   background: linear-gradient(-45deg, #e53935 0 20px, #fb8c00  20px 40px, #fdd835 40px 60px, #43a047 60px 80px, #00acc1 80px 100px, #3949ab 100px 120px, #8e24aa 120px 140px, transparent 140px), linear-gradient(135deg, #e53935 0 20px, #fb8c00  20px 40px, #fdd835 40px 60px, #43a047 60px 80px, #00acc1 80px 100px, #3949ab 100px 120px, #8e24aa 120px 140px, #fff 140px); */
+  /*   background: linear-gradient(115deg, #e53935 0 40px, #fb8c00  40px 120px, #fdd835 60px 35%, #43a047 35% 65%, #00acc1 65% calc(100% - 120px), #3949ab calc(100% - 120px) calc(100% - 40px), #8e24aa calc(100% - 40px) 100%); */
+    background: linear-gradient(-45deg, #FDB827, #542583);
+  }
